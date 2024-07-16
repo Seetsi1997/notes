@@ -1,0 +1,22 @@
+ 
+      @media screen and (min-width: 1024px) {
+        body {
+          margin: 0;
+        }
+        .main,
+        .footer__copy, #year {
+          padding: 0;
+        }
+      }
+      @media screen and (min-width: 320px) {
+        .main,
+        .footer__copy, #year {
+          padding: 0;
+        }
+        .footer__copy {
+          margin-top: 8.6rem;
+        }
+        .footer__copy {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }

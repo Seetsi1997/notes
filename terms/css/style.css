@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+
+} 
+  body{
+    margin: 0 0 3rem 0;
+    font-size: 0.918rem;
+    background: linear-gradient(to right top,#1159d4, #111824,#0c1c35, #042047, #002459, #001b4b, #1159d4); 
+    color: #defbff;
+  } 
+    ul li{ 
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-top: 1rem;
+      font-size: 0.918rem;
+      list-style-type: decimal;
+    }
+   .section__title{
+      text-align: center;
+      font-weight: 900;
+      font-size: 1.5rem;
+      text-decoration: underline;
+      text-underline-offset: inherit;
+      color: #defbff;
+      cursor: pointer;
+    }
+    .footer__copy{
+      margin: 1.5rem;
+    }
+    #year, .footer__copy{
+      font-size: 0.813rem;
+      text-align: center;
+      margin-top: 1.5rem;
+      text-decoration: none;
+      color:  #defbff;
+      cursor: pointer;
+    }

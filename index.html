@@ -1,33 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notes app</title>
+<!--  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Notes App</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="notes" id="app">
-        <div class="notes__sidebar">
-            <button class="notes__add" type="button">Add Note</button>
-            <div class="notes__list">
-                <div class="notes__list-item notes__list-item--selected">
-                    <div class="notes__small-title"></div>
-                    <div class="notes__small-body"></div>
-                    <div class="notes__small-updated"></div>
-                </div>
-            </div>
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <link rel="stylesheet" href="./font/fontawesome/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css  />
+  </head>
+  <body>
+      <p class="welcome__contect">Welcome <i class="fa-solid fa-hands-clapping"></i></p>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <!-- Header -->
+          <header>
+            <p></p>
+            <i class="uil uil-times-circle"></i>
+          </header>
+          <!-- End Header -->
+          <!-- Section  -->
+          <section>
+          <!-- Form  -->
+            <form action="#">
+              <div class="row title">
+                <label>Title</label>
+                <input type="text" spellcheck="false">
+              </div>
+              <div class="row description">
+                <label>Category</label>
+                <textarea type="text" spellcheck="false"></textarea>
+              </div>
+              <button></button>
+            </form>
+            <!-- End Form -->
+          </div>
         </div>
-        <div class="notes__preview">
-            <input class="notes__title" type="text" placeholder="Enter a title...">
-            <textarea class="notes__body">I am the notes body...</textarea>
-        </div>
-    </div>
+      </div>
+      <div class="wrapper">
+        <li class="add-box">
+          <div class="icon"><i class="uil uil-plus"></i></div>
+          <p>Create Note <i class="fa-solid fa-pen-to-square"></i></p>
+        </li>
+      </div> 
+    </section>  
+    <!-- End Section  --> 
+    <!-- Footer -->
     <footer>
-        <p>Copyright &#169; 2024 By Ganeth Seetsi Softwere Developer, All Rights Reserved.</p>
-        <a href="./terms/terms-and-condictions.html"><p> Terms And Conditions</p></a>
-      </footer>
-    <script src="./js/main.js" type="module"></script>
-</body>
+      <p class="footer__copy">2023~<a id="year"></a> &#169; by Ganeth Seetsi ~ Frontend Developer Intern. All Rights Reserved.</p>
+    </br>
+      <a href="./terms/terms_and_condictions.html" class="footer__copy" ><p>Terms And Conditions</p></a>
+    <br>
+    </footer>
+    <!-- End Footer -->
+    <!-- Scripts here -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>

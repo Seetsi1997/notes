@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/about_style.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <title>About Portfolio</title>
+  <head>
+<body>
+  
+  <main class="main">
+    <section>
+      <div class="version__header">
+        <img src="./image/user.png" alt="" class="version__img">
+      </div>
+    </section>
+    <Section>
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">Version: 'Unknown'</span> 
+    </Section>
+  </main>
+ <footer>
+  <p class="footer__copy">2023~<span id="year"></span> &#169; by Ganeth Seetsi ~ Frontend Developer Intern. All Rights Reserved.</p>
+</br>
+</footer>
+ <script>
+     function year(){
+      const yearDate = new Date();
+      document.getElementById('year').innerHTML = yearDate.getFullYear();
+    }
+      year();
+ </script>
+</body>
+</html>

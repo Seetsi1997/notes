@@ -1,0 +1,65 @@
+/* ==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+ /*==================== END GOOGLE FONTS    ==============*/
+
+*{
+   margin: 0;
+   padding: 7px;
+   list-style: none;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none; 
+ } 
+  body{
+    margin: 0 0 3rem 0;
+    font-size: 0.913rem;
+    background: linear-gradient(to right top, #1159d4, #111824,#0c1c35, #042047, #002459, #001b4b, #1159d4);  
+    color: #defbff;
+  } 
+
+  .main {
+    padding: 0 1rem;
+  }
+  .version__header {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+ }
+  .version__header {
+  flex-direction: column;
+  align-items: center;
+ }
+ .version__img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right:  0.75rem;
+  cursor: pointer;
+ }
+  section {
+    padding: 0.5rem 0 0.5rem;
+    margin-bottom: 20px;
+  }
+  .section__title {
+    font-size: 1.5rem;
+  }
+  
+  .section__subtitle {
+    display: block;
+    font-size: 0.813rem;
+    margin-bottom: -1rem;
+  }
+  
+  .section__title,
+  .section__subtitle {
+    text-align: center;
+  }
+
+  .footer__copy, #year{
+      font-size: 0.813rem;
+      text-align: center;
+      margin-top: 12.5rem;
+      text-decoration: none;
+      color:  #defbff;
+      cursor: pointer;
+    }
